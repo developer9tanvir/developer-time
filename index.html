@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Development Area</title>
+	<!-- ALL CSS FILES  -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+	
+		
+	<div class="container my-5">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card">
+					<div class="card-body">
+						<h2>Add Devs</h2>
+						<hr>
+						<form id="devs_form">
+							<div class="form-group">
+								<label for="">Name</label>
+								<input class="form-control" name="name" type="text" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<br>
+								skills
+								<hr>
+								<input name="skill" type="checkbox" value="React Developer" id="react"> <label for="react">React Developer</label> <br>
+								<input name="skill" type="checkbox" value="Laravel Developer" id="Laravel"> <label for="Laravel">Laravel Developer</label> <br>
+								<input name="skill" type="checkbox" value="IOS Developer" id="IOS"> <label for="IOS">IOS Developer</label> <br>
+								<input name="skill" type="checkbox" value="Python Developer" id="Python"> <label for="Python">Python Developer</label> <br>
+							</div>
+							<div class="form-group">
+								<br>
+								gender
+								<hr>
+								<input name="gender" type="radio" value="Male" id="Male"> <label for="Male">Male</label> <br>
+								<input name="gender" type="radio" value="Female" id="Female"> <label for="Female">Female</label> <br>
+
+							</div>
+							<div class="form-group">
+								<label for="">Photo</label>
+								<input class="form-control" name="photo" type="text" placeholder="Photo">
+							</div>
+							<div class="form-group">
+								<br>
+								<input class="btn btn-primary btn-block" type="submit" value="Add new devs">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9">
+
+				<div class="row devs-area">
+
+
+
+
+					
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<!-- JS FILES  -->
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="./functions.js"></script>
+	<script src="./app.js"></script>
+</body>
+</html>
